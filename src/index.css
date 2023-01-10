@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+header nav{
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header nav h1{
+  margin-right:  auto;
+}
+
+
+header nav a{
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+header nav a.active{
+  background-color: red;
+}
